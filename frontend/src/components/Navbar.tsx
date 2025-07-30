@@ -119,21 +119,23 @@ const Navbar = () => {
                                         <div className="flex flex-col">
                                             {/* Item: Ohoi Dullah */}
                                             {/* You might want these to be links to sub-pages later, e.g., <Link to="/kenali-desa/dullah"> */}
-                                            <button
+                                             <button
                                                 type="button"
                                                 className="px-5 py-2 border-b border-emerald-900 text-left hover:bg-emerald-50 focus:bg-emerald-100 transition"
+                                                onClick={() => window.open("https://ohoi-ngadi.id", "_blank")}
                                             >
                                                 <span className="text-emerald-900 text-sm font-medium">
-                                                    Ohoi Dullah
+                                                    Ohoi Ngadi
                                                 </span>
                                             </button>
                                             {/* Item: Ohoi Labetawi */}
-                                            <button
+                                             <button
                                                 type="button"
-                                                className="px-5 py-2 text-left hover:bg-emerald-50 focus:bg-emerald-100 transition"
+                                                className="px-5 py-2 border-b border-emerald-900 text-left hover:bg-emerald-50 focus:bg-emerald-100 transition"
+                                                onClick={() => window.open("https://ohoi-dullah.id", "_blank")}
                                             >
                                                 <span className="text-emerald-900 text-sm font-medium">
-                                                    Ohoi Labetawi
+                                                    Ohoi Dullah
                                                 </span>
                                             </button>
                                         </div>

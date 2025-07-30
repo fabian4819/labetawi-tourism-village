@@ -35,7 +35,7 @@ const OrganizationChart = ({ className = "" }: OrganizationChartProps) => {
           "text-black text-lg font-normal font-['Albert_Sans'] leading-relaxed", // tablet
           "text-black text-3xl font-normal font-['Albert_Sans'] leading-relaxed" // desktop
         )}>
-          Inilah susunan struktur resmi Ohoi Ngadi
+          Inilah susunan struktur resmi Ohoi Labetawi
         </p>
       </div>
       <div className={responsiveClass(
@@ -48,7 +48,7 @@ const OrganizationChart = ({ className = "" }: OrganizationChartProps) => {
         {/* Chart */}
         <img
           src="/images/organization-chart.png"
-          alt="Struktur Organisasi Ohoi Ngadi"
+          alt="Struktur Organisasi Ohoi Labetawi"
           className={responsiveClass(
             "w-full max-w-xs rounded-xl relative z-10", // mobile
             "w-full max-w-lg rounded-2xl relative z-10", // tablet

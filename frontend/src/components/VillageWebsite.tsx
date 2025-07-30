@@ -98,7 +98,7 @@ const VillageWebsite = () => {
                             )}
                             style={{ zIndex: 2 }}
                         >
-                            Ohoi Ngadi
+                            Ohoi Labetawi
                         </h1>
 
                         {/* Right Asset */}
@@ -162,7 +162,7 @@ const VillageWebsite = () => {
                             )}
                             style={{ transition: "transform 0.2s" }}
                             onClick={() => setYoutubeUrl("https://www.youtube.com/embed/hAEFpdjNLtU?autoplay=1")}
-                            aria-label="Tonton video profil Ohoi Ngadi"
+                            aria-label="Tonton video profil Ohoi Labetawi"
                         >
                             <span className={responsiveClass(
                                 "inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-900 border-4 border-white shadow-xl group-hover:scale-110 transition-transform duration-200", // mobile
@@ -380,7 +380,7 @@ const VillageWebsite = () => {
                                     "text-black text-2xl font-medium font-['Albert_Sans'] leading-relaxed" // desktop
                                 )}
                             >
-                                Selamat datang di Ohoi Ngadi, desa wisata bahari di Tual, Maluku
+                                Selamat datang di Ohoi Labetawi, desa wisata bahari di Tual, Maluku
                                 yang masuk{" "}
                                 <span className="font-bold">
                                     45 besar Desa Wisata Nusantara 2024!
@@ -595,7 +595,7 @@ const VillageWebsite = () => {
                                 "text-emerald-900 text-4xl font-bold font-['Montserrat'] mb-4" // desktop
                             )}
                         >
-                            Jelajahi Keindahan Ohoi Ngadi
+                            Jelajahi Keindahan Ohoi Labetawi
                         </h2>
                         <p
                             className={responsiveClass(
@@ -654,7 +654,7 @@ const VillageWebsite = () => {
                                 "w-[60vw] object-cover" // desktop
                             )}
                             src="/images/map-full.png"
-                            alt="Peta Ohoi Ngadi"
+                            alt="Peta Ohoi Labetawi"
                             draggable={false}
                         />
                         {/* Location List */}
@@ -705,7 +705,7 @@ const VillageWebsite = () => {
                             <div className="self-stretch inline-flex justify-between items-center">
                                 <div className="flex justify-start items-center gap-3">
                                     <div className="justify-start text-emerald-900 text-3xl font-bold font-['Montserrat']">
-                                        Ohoi Ngadi
+                                        Ohoi Labetawi
                                     </div>
                                     <a
                                         href="https://maps.app.goo.gl/AsW2QwMHHR3Ckggt7"
@@ -739,7 +739,7 @@ const VillageWebsite = () => {
                                 </button>
                             </div>
                         </div>
-                        <img className="self-stretch h-[630.34px] object-contain" src="/images/peta-ngadi.png" alt="Peta Ohoi Ngadi" />
+                        <img className="self-stretch h-[630.34px] object-contain" src="/images/peta-Labetawi.png" alt="Peta Ohoi Labetawi" />
                     </div>
                 </div>
             )}
@@ -832,7 +832,7 @@ const VillageWebsite = () => {
                     >
                         <img
                             src="/images/lokasi.png"
-                            alt="Lokasi Ohoi Ngadi"
+                            alt="Lokasi Ohoi Labetawi"
                             className="w-full h-full object-contain"
                             style={{ display: "block", marginLeft: 0, marginBottom: 0 }}
                             draggable={false}

@@ -75,13 +75,13 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
               >
                 Ohoi Dullah
               </Link>
-              <Link
+              {/* <Link
                 to="/kenali-desa/labetawi"
                 className="block text-white text-lg font-medium font-['Montserrat']"
                 onClick={onClose}
               >
                 Ohoi Labetawi
-              </Link>
+              </Link> */}
             </div>
           )}
         </div>
