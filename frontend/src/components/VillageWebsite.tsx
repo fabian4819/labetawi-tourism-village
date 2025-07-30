@@ -281,8 +281,8 @@ const VillageWebsite = () => {
                                 "w-full h-44 rounded-3xl" // desktop
                             )}
                         /> */}
-                        {/* Play icon: sebagian di luar gambar */}
-                        {/* <div
+                    {/* Play icon: sebagian di luar gambar */}
+                    {/* <div
                             className={responsiveClass(
                                 "absolute bottom-2 right-[-18px] w-12 h-12", // mobile
                                 "absolute bottom-4 right-[-22px] w-14 h-14", // tablet
@@ -380,17 +380,8 @@ const VillageWebsite = () => {
                                     "text-black text-2xl font-medium font-['Albert_Sans'] leading-relaxed" // desktop
                                 )}
                             >
-                                Selamat datang di Ohoi Labetawi, desa wisata bahari di Tual, Maluku
-                                yang masuk{" "}
-                                <span className="font-bold">
-                                    45 besar Desa Wisata Nusantara 2024!
-                                </span>
-                                <br />
-                                <br />
-                                Di sini, kamu bisa duduk manis sambil nikmati Danau Waren yang
-                                tenang, jalan-jalan di pantai berpasir, dan merasakan budaya{" "}
-                                <span className="italic">katong</span> yang masih kental lewat
-                                musik, tarian, dan kuliner laut khas Kei.
+                                Selamat datang di Desa Labetawi, hidden gem di Pulau Dullah Utara, Tual. Jelajahi Pantai Difur yang pesonanya alami atau nikmati aksi budaya kayak prosesi Akbitan dan Tari Sawat.
+                                Kalau kamu suka selam, perairan di Pantai Lupus termasuk oke banget buat diving dan menikmati terumbu karangnya layak banget dikulik!
                             </p>
                         </div>
 
@@ -490,7 +481,7 @@ const VillageWebsite = () => {
                             desc: "Pisang goreng khas Tual yang dibalut tepung embal singkong renyah, disajikan hangat dan nikmat dipadu sambal pedas",
                         },
                         {
-                            img: "/images/lad.jpeg",    
+                            img: "/images/lad.jpeg",
                             title: "Lad",
                             desc: "Salad anggur laut segar yang renyah dan menyegarkan, perpaduan rasa laut alami dengan kelapa parut, bawang merah, dan cabai khas Pulau Kei.",
                         },
