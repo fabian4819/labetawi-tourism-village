@@ -1,5 +1,5 @@
 import { twMerge } from "tailwind-merge";
-import { Phone, Mail, Instagram, Facebook, Youtube } from "lucide-react";
+import { Phone, Mail, Instagram, Youtube } from "lucide-react";
 import { SiTiktok } from "react-icons/si";
 import { useBreakpoint, getResponsiveValue } from "../hooks/useBreakpoint";
 
