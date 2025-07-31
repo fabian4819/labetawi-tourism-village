@@ -289,7 +289,7 @@ const VillageWebsite = () => {
                                 "absolute bottom-6 right-[-28px] w-16 h-16" // desktop
                             )}
                             style={{ zIndex: 2, cursor: "pointer" }}
-                            onClick={() => window.open("https://drive.google.com/file/d/1uBksGXUROP-7rftikPkfZcLAiz1PsVuq/view?usp=sharing", "_blank")}
+                            onClick={() => setYoutubeUrl("https://drive.google.com/file/d/1uBksGXUROP-7rftikPkfZcLAiz1PsVuq/preview")}
                         >
                             <div className="w-full h-full bg-emerald-900 rounded-full border-4 border-white flex items-center justify-center shadow-lg">
                                 <Play className={responsiveClass("w-6 h-6", "w-7 h-7", "w-8 h-8") + " text-white"} />
@@ -314,7 +314,7 @@ const VillageWebsite = () => {
                                 width="100%"
                                 height="100%"
                                 src={youtubeUrl}
-                                title="YouTube video"
+                                title="Embedded Video"
                                 frameBorder="0"
                                 allow="autoplay; encrypted-media"
                                 allowFullScreen
