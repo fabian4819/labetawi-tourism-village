@@ -658,12 +658,11 @@ const VillageWebsite = () => {
                                 Akses Lokasi
                             </div>
                             {[
-                                { label: "Danau Waren", url: "https://maps.app.goo.gl/xxxx1" },
-                                { label: "Kolam Renang Dito Hills", url: "https://maps.app.goo.gl/xxxx2" },
-                                { label: "Homestay", url: "https://maps.app.goo.gl/xxxx3" },
-                                { label: "Lapangan Desa", url: "https://maps.app.goo.gl/xxxx4" },
-                                { label: "Masjid Al Mu’minun", url: "https://maps.app.goo.gl/xxxx5" },
-                                { label: "Gereja St. Paulus", url: "https://maps.app.goo.gl/xxxx6" },
+                                { label: "Rumah Kapitan", url: "https://maps.app.goo.gl/wNUEq4zZXjWxQTXD8" },
+                                { label: "Wisata Lupus", url: "https://maps.app.goo.gl/gXPL5JgWryK9WHSk8" },
+                                { label: "Pantai Difur", url: "https://maps.app.goo.gl/FkRNTt8Qe5jbztBq8" },
+                                { label: "Masjid", url: "https://maps.app.goo.gl/wNUEq4zZXjWxQTXD8" },
+                                { label: "Lapangan", url: "https://maps.app.goo.gl/wNUEq4zZXjWxQTXD8" },
                             ].map((item) => (
                                 <a
                                     key={item.label}
