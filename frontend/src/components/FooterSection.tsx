@@ -58,7 +58,7 @@ const FooterSection = () => {
                         </div>
                         <div>
                             <h3 className="text-white text-xl font-semibold font-['Montserrat'] mb-2">
-                                Desa labetawi
+                                Ohoi labetawi
                             </h3>
                             <p className="text-white text-base font-normal font-['Albert_Sans'] mb-1">
                                 Pulau Dullah Utara, Kota Tual, Maluku, Indonesia
@@ -79,25 +79,25 @@ const FooterSection = () => {
                     >
                         <div>
                             <h4 className="text-white text-base font-bold font-['Montserrat'] mb-4">
-                                Pemerintah Desa labetawi
+                                Pemerintah Ohoi labetawi
                             </h4>
                             <div className="space-y-3">
-                                <div className="flex items-center gap-4">
+                                {/* <div className="flex items-center gap-4">
                                     <Facebook className="w-6 h-6 text-white" />
                                     <span className="text-white text-lg font-semibold">
                                         Pemerintah Ohoi labetawi
                                     </span>
-                                </div>
+                                </div> */}
                                 <div className="flex items-center gap-4">
                                     <Phone className="w-6 h-6 text-white" />
                                     <span className="text-white text-lg font-semibold">
-                                        (021) 1234-567
+                                        0821-9364-0364
                                     </span>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <Mail className="w-6 h-6 text-white" />
                                     <span className="text-white text-lg font-semibold">
-                                        labetawi@tualkota.go.id
+                                        labetawiohoi@gmail.com
                                     </span>
                                 </div>
                             </div>

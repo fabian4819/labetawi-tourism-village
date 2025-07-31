@@ -371,8 +371,7 @@ const VillageWebsite = () => {
                                 "mb-4", // mobile
                                 "mb-6", // tablet
                                 "mb-8" // desktop
-                            )}
-                        >
+                            )}>
                             <p
                                 className={responsiveClass(
                                     "text-black text-sm font-medium font-['Albert_Sans'] leading-tight", // mobile
@@ -380,7 +379,7 @@ const VillageWebsite = () => {
                                     "text-black text-2xl font-medium font-['Albert_Sans'] leading-relaxed" // desktop
                                 )}
                             >
-                                Selamat datang di Desa Labetawi, hidden gem di Pulau Dullah Utara, Tual. Jelajahi Pantai Difur yang pesonanya alami atau nikmati aksi budaya kayak prosesi Akbitan dan Tari Sawat.
+                                Selamat datang di Ohoi Labetawi, hidden gem di Pulau Dullah Utara, Tual. Jelajahi Pantai Difur yang pesonanya alami atau nikmati aksi budaya kayak prosesi Akbitan dan Tari Sawat.
                                 Kalau kamu suka selam, perairan di Pantai Lupus termasuk oke banget buat diving dan menikmati terumbu karangnya layak banget dikulik!
                             </p>
                         </div>
