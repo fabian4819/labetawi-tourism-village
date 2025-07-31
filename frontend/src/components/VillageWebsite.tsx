@@ -281,15 +281,15 @@ const VillageWebsite = () => {
                                 "w-full h-44 rounded-3xl" // desktop
                             )}
                         />
-                    {/* Play icon: sebagian di luar gambar */}
-                    <div
+                        {/* Play icon: sebagian di luar gambar */}
+                        <div
                             className={responsiveClass(
                                 "absolute bottom-2 right-[-18px] w-12 h-12", // mobile
                                 "absolute bottom-4 right-[-22px] w-14 h-14", // tablet
                                 "absolute bottom-6 right-[-28px] w-16 h-16" // desktop
                             )}
                             style={{ zIndex: 2, cursor: "pointer" }}
-                            onClick={() => setYoutubeUrl("https://www.youtube.com/embed/QMw1mlI42Pk?autoplay=1")}
+                            onClick={() => window.open("https://drive.google.com/file/d/1uBksGXUROP-7rftikPkfZcLAiz1PsVuq/view?usp=sharing", "_blank")}
                         >
                             <div className="w-full h-full bg-emerald-900 rounded-full border-4 border-white flex items-center justify-center shadow-lg">
                                 <Play className={responsiveClass("w-6 h-6", "w-7 h-7", "w-8 h-8") + " text-white"} />
