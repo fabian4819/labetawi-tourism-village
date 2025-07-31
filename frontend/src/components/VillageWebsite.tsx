@@ -161,7 +161,7 @@ const VillageWebsite = () => {
                                 "absolute bottom-8 right-8 z-20 group focus:outline-none"  // desktop
                             )}
                             style={{ transition: "transform 0.2s" }}
-                            onClick={() => setYoutubeUrl("https://www.youtube.com/embed/hAEFpdjNLtU?autoplay=1")}
+                            onClick={() => setYoutubeUrl("https://www.youtube.com/embed/U0PAxJ3eEdI?autoplay=1")}
                             aria-label="Tonton video profil Ohoi Labetawi"
                         >
                             <span className={responsiveClass(
@@ -265,7 +265,7 @@ const VillageWebsite = () => {
                         </p>
                     </div>
 
-                    {/* <div
+                    <div
                         className={responsiveClass(
                             "w-full relative ml-0", // mobile
                             "w-64 relative ml-8", // tablet
@@ -280,22 +280,22 @@ const VillageWebsite = () => {
                                 "w-full h-36 rounded-3xl", // tablet
                                 "w-full h-44 rounded-3xl" // desktop
                             )}
-                        /> */}
+                        />
                     {/* Play icon: sebagian di luar gambar */}
-                    {/* <div
+                    <div
                             className={responsiveClass(
                                 "absolute bottom-2 right-[-18px] w-12 h-12", // mobile
                                 "absolute bottom-4 right-[-22px] w-14 h-14", // tablet
                                 "absolute bottom-6 right-[-28px] w-16 h-16" // desktop
                             )}
                             style={{ zIndex: 2, cursor: "pointer" }}
-                            onClick={() => setYoutubeUrl("https://www.youtube.com/embed/VuRw_Pv2_Go?autoplay=1")}
+                            onClick={() => setYoutubeUrl("https://www.youtube.com/embed/QMw1mlI42Pk?autoplay=1")}
                         >
                             <div className="w-full h-full bg-emerald-900 rounded-full border-4 border-white flex items-center justify-center shadow-lg">
                                 <Play className={responsiveClass("w-6 h-6", "w-7 h-7", "w-8 h-8") + " text-white"} />
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </section>
 
