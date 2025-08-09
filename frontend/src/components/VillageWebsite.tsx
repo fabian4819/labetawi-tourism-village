@@ -265,7 +265,7 @@ const VillageWebsite = () => {
                         </p>
                     </div>
 
-                    <div
+                    {/* <div
                         className={responsiveClass(
                             "w-full relative ml-0", // mobile
                             "w-64 relative ml-8", // tablet
@@ -281,7 +281,6 @@ const VillageWebsite = () => {
                                 "w-full h-44 rounded-3xl" // desktop
                             )}
                         />
-                        {/* Play icon: sebagian di luar gambar */}
                         <div
                             className={responsiveClass(
                                 "absolute bottom-2 right-[-18px] w-12 h-12", // mobile
@@ -295,7 +294,7 @@ const VillageWebsite = () => {
                                 <Play className={responsiveClass("w-6 h-6", "w-7 h-7", "w-8 h-8") + " text-white"} />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
@@ -384,19 +383,23 @@ const VillageWebsite = () => {
                             </p>
                         </div>
 
-                        {/* <button
-                            className={responsiveClass(
-                                "flex items-center gap-2 px-4 py-2 bg-emerald-900 rounded-xl text-white text-xs font-semibold font-['Montserrat']", // mobile
-                                "flex items-center gap-2 px-6 py-3 bg-emerald-900 rounded-2xl text-white text-lg font-semibold font-['Montserrat']", // tablet
-                                "flex items-center gap-3 px-6 py-2 bg-emerald-900 rounded-3xl text-white text-xl font-semibold font-['Montserrat']" // desktop
+                        <button
+                            className={twMerge(
+                                responsiveClass(
+                                    "flex items-center gap-2 px-4 py-2 bg-emerald-900 rounded-xl text-white text-xs font-semibold font-['Montserrat']",
+                                    "flex items-center gap-2 px-6 py-3 bg-emerald-900 rounded-2xl text-white text-lg font-semibold font-['Montserrat']",
+                                    "flex items-center gap-3 px-6 py-2 bg-emerald-900 rounded-3xl text-white text-xl font-semibold font-['Montserrat']"
+                                ),
+                                "transition-colors duration-300 hover:bg-emerald-700 hover:shadow-lg"
                             )}
+                            onClick={() => setYoutubeUrl("https://drive.google.com/file/d/1uBksGXUROP-7rftikPkfZcLAiz1PsVuq/preview")}
                         >
                             <span>Lihat Podcast Suara <span className="italic">Katong</span></span>
                             <span
                                 className={responsiveClass(
-                                    "inline-flex items-center justify-center rounded-full border-2 border-white bg-emerald-900", // mobile
-                                    "inline-flex items-center justify-center rounded-full border-2 border-white bg-emerald-900", // tablet
-                                    "inline-flex items-center justify-center rounded-full border-2 border-white bg-emerald-900" // desktop
+                                    "inline-flex items-center justify-center rounded-full border-2 border-white bg-emerald-900",
+                                    "inline-flex items-center justify-center rounded-full border-2 border-white bg-emerald-900",
+                                    "inline-flex items-center justify-center rounded-full border-2 border-white bg-emerald-900"
                                 )}
                                 style={{
                                     width: getResponsiveValue({ mobile: 28, tablet: 36, desktop: 30 }, currentBreakpoint),
@@ -405,13 +408,13 @@ const VillageWebsite = () => {
                             >
                                 <Play
                                     className={responsiveClass(
-                                        "w-4 h-4", // mobile
-                                        "w-5 h-5", // tablet
-                                        "w-4 h-4" // desktop
+                                        "w-4 h-4",
+                                        "w-5 h-5",
+                                        "w-4 h-4"
                                     )}
                                 />
                             </span>
-                        </button> */}
+                        </button>
                     </div>
 
                     {/* Image Gallery */}
@@ -426,11 +429,11 @@ const VillageWebsite = () => {
                         <img
                             src="/images/tabema-1.png"
                             alt="Village life 1"
-                            className={responsiveClass(
+                            className={twMerge(responsiveClass(
                                 "w-24 h-32 rounded-lg object-cover", // mobile
                                 "w-32 rounded-xl object-cover", // tablet
                                 "w-60 rounded-2xl object-cover" // desktop
-                            )}
+                            ), "hover:scale-105 transition-transform duration-300")}
                             style={{ zIndex: 2 }}
                         />
                         {/* Right column: tabema-2 (top), tabema-3 (bottom) */}
@@ -438,20 +441,20 @@ const VillageWebsite = () => {
                             <img
                                 src="/images/tabema-2.png"
                                 alt="Village life 2"
-                                className={responsiveClass(
+                                className={twMerge(responsiveClass(
                                     "w-24 h-20 rounded-lg object-cover translate-y-[-20%]", // mobile
                                     "w-32 h-24 rounded-xl object-cover translate-y-[-24%]", // tablet
                                     "w-60 rounded-2xl object-cover translate-y-[-10%]" // desktop
-                                )}
+                                ), "hover:scale-105 transition-transform duration-300")}
                             />
                             <img
                                 src="/images/tabema-3.png"
                                 alt="Village life 3"
-                                className={responsiveClass(
+                                className={twMerge(responsiveClass(
                                     "w-24 h-20 rounded-lg object-cover translate-y-[20%]", // mobile
                                     "w-32 h-24 rounded-xl object-cover translate-y-[24%]", // tablet
                                     "w-60 rounded-2xl object-cover translate-y-[10%]" // desktop
-                                )}
+                                ), "hover:scale-105 transition-transform duration-300")}
                             />
                         </div>
                     </div>
@@ -638,11 +641,11 @@ const VillageWebsite = () => {
                     >
                         {/* Map Image */}
                         <img
-                            className={responsiveClass(
+                            className={twMerge(responsiveClass(
                                 "w-full h-[260px] object-cover", // mobile
                                 "w-[737px] h-[400px] object-cover", // tablet
                                 "w-[60vw] object-cover" // desktop
-                            )}
+                            ), "hover:scale-105 transition-transform duration-300 cursor-pointer")}
                             src="/images/map-full.png"
                             alt="Peta Ohoi Labetawi"
                             draggable={false}
@@ -705,7 +708,7 @@ const VillageWebsite = () => {
                                         {/* Ganti img dengan icon location */}
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-10 h-10 text-emerald-900"
+                                            className="w-10 h-10 text-emerald-900 hover:scale-110 transition-transform duration-300"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
@@ -720,11 +723,11 @@ const VillageWebsite = () => {
                                     </a>
                                 </div>
                                 <button
-                                    className="w-6 h-6 bg-emerald-900 text-white flex items-center justify-center text-xl font-bold rounded"
+                                    className="w-6 h-6 bg-emerald-900 text-white flex items-center justify-center text-xl font-bold rounded hover:bg-red-500 transition-colors duration-300"
                                     onClick={() => setShowMapModal(false)}
                                     aria-label="Tutup"
                                 >
-                                    &times;
+                                    ×
                                 </button>
                             </div>
                         </div>
@@ -812,11 +815,11 @@ const VillageWebsite = () => {
 
                     {/* Map Placeholder */}
                     <div
-                        className={responsiveClass(
+                        className={twMerge(responsiveClass(
                             "w-full h-48 rounded-lg overflow-hidden flex items-end", // mobile
                             "w-full h-64 rounded-lg overflow-hidden flex items-end", // tablet
                             "w-[900px] rounded-lg overflow-hidden flex items-end" // desktop
-                        )}
+                        ), "cursor-pointer hover:scale-105 transition-transform duration-300")}
                         style={{ marginBottom: 0 }}
                     >
                         <img
